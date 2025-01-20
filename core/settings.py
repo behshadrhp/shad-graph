@@ -25,6 +25,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    # Internal App
+    "blog",
+
+    # Eternal App
+    "graphene_django",
 ]
 
 MIDDLEWARE = [
